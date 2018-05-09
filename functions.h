@@ -1,8 +1,3 @@
-void win()
-{
-    
-}
-
 void ms3()
 {
       while(analog(1) < 3500 && get_create_lbump() == 0)
