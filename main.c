@@ -361,6 +361,8 @@ int main()
     set_servo_position(1, closev);
     create_drive_direct(200, 200);
     msleep(350);
+	
+	
     create_stop();
 
     //TURNS RIGHT BEFORE STARTS LINE FOLLOWING
@@ -392,7 +394,7 @@ int main()
     create_drive_direct(150, 150);
     msleep(500);
 
-    //turns to compensate for accidental turn that fucks everything up
+    //turns to compensate for accidental turn 
     create_drive_direct(0,150);
     msleep(1000);
     //claw closes around botguy
