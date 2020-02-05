@@ -97,7 +97,7 @@ int speed;
 
 
 }
-void cleanUp ( int length, int range, double decay) //see also low-pass-filter-method [https://www.robosoup.com/2014/01/cleaning-noisy-time-series-data-low-pass-filter-c.html]
+void cleanUp ( int length, int range, double decay) //see also low-pass-filter-method now at[https://web.archive.org/web/20180922093343/http://www.robosoup.com/2014/01/cleaning-noisy-time-series-data-low-pass-filter-c.html] not [https://www.robosoup.com/2014/01/cleaning-noisy-time-series-data-low-pass-filter-c.html]
 {
     int ns = length;
     double data[ns];
